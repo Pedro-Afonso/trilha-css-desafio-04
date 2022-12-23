@@ -1,0 +1,87 @@
+.c-section {
+  padding: 4rem 2.4rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.7rem;
+}
+
+.c-section__text {
+  order: 2;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.c-section__text h2 {
+  margin-bottom: 2.7rem;
+}
+
+.c-section__image-container {
+  text-align: center;
+  order: 1;
+}
+
+.c-section:nth-child(even) {
+  background-color: #f6f6f6;
+}
+
+.c-section:last-child h2 {
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-size: 3.2rem;
+  line-height: 3.2rem;
+  text-transform: uppercase;
+}
+.c-section:last-child .c-section__text {
+  order: 1;
+}
+
+.c-section:last-child .c-section__image-container {
+  order: 2;
+}
+
+@media screen and (min-width: 768px) {
+  .c-section {
+    padding: 2.7rem;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+  }
+
+  .c-section__text {
+    max-width: 34.8rem;
+    margin: 0;
+  }
+
+  .c-section__text h2 {
+    font-weight: 800;
+    margin-bottom: 1.6rem;
+  }
+
+  .c-section:nth-child(3) {
+    margin: 4rem auto;
+  }
+
+  .c-section:nth-child(even) .c-section__text {
+    order: 1;
+  }
+
+  .c-section:last-child {
+    flex-direction: column;
+    padding: 4rem;
+  }
+
+  .c-section:last-child h2 {
+    font-size: 4rem;
+    line-height: 4rem;
+    max-width: 60rem;
+    margin: 0 auto;
+    margin-bottom: 1.6rem;
+  }
+  .c-section:last-child .c-section__text {
+    max-width: 80.2rem;
+    text-align: center;
+  }
+}

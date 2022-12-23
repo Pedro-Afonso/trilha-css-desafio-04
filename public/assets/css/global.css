@@ -1,0 +1,57 @@
+@import url("./reset.css");
+@import url("./components/header.css");
+@import url("./components/section.css");
+@import url("./components/footer.css");
+
+/* 
+font-family: 'Luckiest Guy', cursive;
+*/
+
+html {
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+  color: #23272a;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  line-height: 3.3rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  border-radius: 50px;
+  background-color: #fff;
+  height: 5.4rem;
+  font-size: 1.6rem;
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 4rem;
+    line-height: 5.4rem;
+  }
+}
+
+.light-button {
+  color: #23272a;
+  background-color: #fff;
+}
+
+.dark-button {
+  color: #fff;
+  background-color: #23272a;
+}

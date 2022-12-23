@@ -1,0 +1,25 @@
+.c-footer {
+  height: 14rem;
+  background-color: #23272a;
+}
+
+.c-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-footer img {
+  height: 4.5rem;
+  width: 16.2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .c-footer {
+    height: 13.4rem;
+  }
+  .c-footer img {
+    height: 6.3rem;
+    width: 23rem;
+  }
+}

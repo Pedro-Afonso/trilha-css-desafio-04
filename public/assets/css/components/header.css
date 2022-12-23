@@ -1,0 +1,57 @@
+.c-header {
+  background-image: url("../../images/banner.svg");
+  background-size: cover;
+  background-position: 25%;
+  height: 50.5rem;
+  width: 100%;
+}
+
+.c-header__content {
+  color: #fff;
+  padding: 7rem 2.4rem;
+}
+
+.c-header__content h1 {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 2.4rem;
+}
+
+.c-header__content p {
+  margin-bottom: 2.4rem;
+}
+
+.c-header__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+@media screen and (min-width: 768px) {
+  .c-header {
+    height: 45.9rem;
+  }
+
+  .c-header__content {
+    max-width: 80rem;
+    height: 270px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .c-header__content h1 {
+    font-size: 5.6rem;
+    line-height: 5.6rem;
+  }
+  .c-header__actions {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .c-header__actions button {
+    cursor: pointer;
+    padding: 1rem 2.4rem;
+    line-height: 2.2rem;
+  }
+}
